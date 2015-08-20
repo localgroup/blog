@@ -5,7 +5,14 @@
 
 This is  simple blog application built with AngularJS, Node.js and MongoDB. Creates your article and shares them in a beautiful minimalistic template.
 
+Blog Admin UI Page
+==================
+
 ![Blog Admin UI Page](https://upload.wikimedia.org/wikipedia/commons/5/5b/BlogAdminArtilceCreationPageUsingMEAN.png)
+
+
+Blog Post UI Page
+=================
 
 ![Blog Post UI Page](https://upload.wikimedia.org/wikipedia/commons/7/79/BlogPostUsingMEAN.png)
 
@@ -68,7 +75,7 @@ This needs to be installed in your machine and Running with port :6379
 Clone the repository with:
 
 git clone https://github.com/localgroup/blog.git
-cd BlogUsingMEANStack
+cd blog
 
 ## Directory Layout
 
