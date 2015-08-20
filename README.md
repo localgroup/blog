@@ -3,7 +3,7 @@
 
 ## Description
 
-This is  simple blog application built with AngularJS, Node.js and MongoDB. Creates your article and shares them in a beautiful minimalistic template.
+This is  simple blog application built with AngularJS, Node.js,Redis and Mongo DB. Creates your article and shares them in a beautiful minimalistic template.
 
 Blog Admin UI Page
 ==================
