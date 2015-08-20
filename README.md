@@ -33,6 +33,7 @@ You need `mongodb-2.4.10` up and running on port `27017`
 ### Start Redis
 
 Start your redis instance:
+```
 
 
 
@@ -52,7 +53,7 @@ Start your redis instance:
       `-._    `-.__.-'    _.-'
           `-._        _.-'
               `-.__.-'
-              
+```              
               
               
 
@@ -94,25 +95,19 @@ Run gulp to build the scripts of the AngularJS app with: gulp
 
 
 ### Install
-
-
-
 Go to the api folder and install the dependencies: npm install
 
 Edit api/blog.js and replace the value of Access-Control-Allow-Origin to match your server configuration.
-
 
 Navigate into the below directory
 api
 
 Run the Rest api exposed application: node blog.js
 
-
 Navigate into the below directory
 app
 
 Run the Blog UI  application: live-server
-
 
 ## Run
 
@@ -134,7 +129,7 @@ To access the Administration, go to `http://localhost:8080/#/admin/login`
 * Json web Token
 
 
-Want to Contribute ?
+Want to Contribute?
 ===================
 
 I'm so happy if you do. Fork the project, make whatever changes you want to do and submit a pull request.
@@ -143,7 +138,9 @@ I'm so happy if you do. Fork the project, make whatever changes you want to do a
 ## Licence
 The MIT License (MIT)
 
-Copyright (c) 2015 Ramachandran Krishnan and Nishant Shreshth (ramackri@gmail.com,nishantshreshth@gmail.com)
+Copyright (c) 2015
+Ramachandran Krishnan (ramackri@gmail.com)
+Nishant Shreshth (nishantshreshth@gmail.com)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
