@@ -34,6 +34,8 @@ You need `mongodb-2.4.10` up and running on port `27017`
 
 Start your redis instance:
 
+
+
            _.-``__ ''-._
       _.-``    `.  `_.  ''-._           Redis 2.8.9 (00000000/0) 64 bit
   .-`` .-```.  ```\/    _.,_ ''-._
@@ -50,6 +52,9 @@ Start your redis instance:
       `-._    `-.__.-'    _.-'
           `-._        _.-'
               `-.__.-'
+              
+              
+              
 
 Downloads Redis server from
 
