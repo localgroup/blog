@@ -1,0 +1,23 @@
+<section class="post">
+    <header class="post-header">
+        <h2 class="post-title"><a href="#/post/{{post._id}}">{{post.title}}</a></h2>
+        <div class="post-meta"><i class="fa fa-bullseye"></i> Posted on {{post.created | date:'medium'}}</div>
+        <div class="post-meta"><i class="fa fa-heart push-right"></i> {{post.likes}}</div>
+        <div class="post-meta">
+        	<ul class="list-inline">
+                <i class="fa fa-tags"></i> 
+                <li ng-repeat="tag in post.tags">
+                    <a class="label label-success" href="#/tag/{{tag}}">{{tag}}</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <div class="post-content">
+        <p ng-bind-html="post.content"></p>
+    </div>
+    <footer class="post-footer">
+        <button ng-click="likePost()" class="btn btn-xs btn-success" ng-hide="isAlreadyLiked">Like</button>
+        <button ng-click="unlikePost()" class="btn btn-xs btn-success" ng-show="isAlreadyLiked">Unlike</button>
+        {{post.likes}} <i class="fa fa-heart push-right"></i>
+    </footer>
+</section>

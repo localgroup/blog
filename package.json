@@ -1,0 +1,12 @@
+{
+  "name": "blog-builder",
+  "description": "Blog Using Mean Stack",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "gulp": "^3.6.2",
+    "gulp-concat": "~2.2.0",
+    "gulp-less": "~1.2.3",
+    "less": "~1.7.0"
+  }
+}
