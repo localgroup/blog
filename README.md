@@ -5,9 +5,9 @@
 
 This is  simple blog application built with AngularJS, Node.js and MongoDB. Creates your article and shares them in a beautiful minimalistic template.
 
-![Blog Admin UI Page](https://commons.wikimedia.org/wiki/File:BlogAdminArtilceCreationPageUsingMEAN.png)
+![Blog Admin UI Page](https://upload.wikimedia.org/wikipedia/commons/5/5b/BlogAdminArtilceCreationPageUsingMEAN.png)
 
-![Blog Post UI Page](https://commons.wikimedia.org/wiki/File:BlogPostUsingMEAN.png)
+![Blog Post UI Page](https://upload.wikimedia.org/wikipedia/commons/7/79/BlogPostUsingMEAN.png)
 
 ## Features
 
