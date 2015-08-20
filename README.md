@@ -29,8 +29,6 @@ Blog Post UI Page
 - [x] Handle Login
 - [x] Add users management
 - [x] Add Like to post
-- [] Add comment to post
-- [] Add Like to comment
 
 
 ## Dependencies
