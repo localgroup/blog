@@ -72,13 +72,14 @@ cd BlogUsingMEANStack
 
 ## Directory Layout
 
-   	  BlogUsingMEANStack/          --> all of the files to be used in development
-      package.json/         --> It normally located at the root directory and contains dependencies which needs for this application
-      gulpfile.js/   -->  Gulp.js is a Node-based task runner just like Grunt and as such, you'll need to have Node.js installed to use it
-	  app/   --->  Contains all UI modules
-	  api/   --->  Contains all rest api exposed as well as Mongo DB,Redis server configurations,etc
-      app/index.html  --> Blog Admin Home page
-
+```
+blog/          --> Project root directory
+package.json/  --> Node (NPM) project info and dependencies
+gulpfile.js/   --> Gulp.js is a Node-based task runner just like Grunt and as such, you'll need to have Node.js installed to use it
+app/   	       --> Contains all UI modules
+api/           --> Contains all rest APIs, config for Mongo DB, Redis server etc.
+app/index.html --> Landing page
+```
 
 ### Build angularjs app
 
