@@ -75,8 +75,9 @@ cd BlogUsingMEANStack
 ```
 blog/          --> Project root directory
 package.json/  --> Node (NPM) project info and dependencies
-gulpfile.js/   --> Gulp.js is a Node-based task runner just like Grunt and as such, you'll need to have Node.js installed to use it
-app/   	       --> Contains all UI modules
+gulpfile.js/   --> Gulp.js is a Node-based task runner just like Grunt and as such
+                   You need to have Node.js installed to use it
+app/           --> Contains all UI modules
 api/           --> Contains all rest APIs, config for Mongo DB, Redis server etc.
 app/index.html --> Landing page
 ```
