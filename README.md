@@ -107,11 +107,15 @@ Go to the api folder and install the dependencies: npm install
 Edit api/blog.js and replace the value of Access-Control-Allow-Origin to match your server configuration.
 
 Navigate into the below directory
+
+
 api
 
 Run the Rest api exposed application: node blog.js
 
 Navigate into the below directory
+
+
 app
 
 Run the Blog UI  application: live-server
